@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCQ Reasoning Assistant</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 2em;
+            background: #f0f2f5;
+        }
+        h1 { color: #333; }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+        }
+        #answer, #memory {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+        }
+        .memory-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #e8e8e8;
+            border-left: 5px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ask Reasoning / MCQ Questions</h1>
+    <input type="text" id="questionInput" placeholder="Type your question..." />
+    <button onclick="submitQuestion()">Submit</button>
+
+    <div id="answer"><strong>Answer:</strong> <span id="answerText">N/A</span></div>
+
+    <div id="memory">
+        <h3>Memory Log</h3>
+        <div id="memoryList"></div>
+    </div>
+
+    <script>
+        async function submitQuestion() {
+            const question = document.getElementById("questionInput").value;
+            const res = await fetch("/ask", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question })
+            });
+
+            const data = await res.json();
+            document.getElementById("answerText").innerText = data.answer;
+
+            const memoryDiv = document.getElementById("memoryList");
+            memoryDiv.innerHTML = "";
+            data.memory.forEach((item, idx) => {
+                const div = document.createElement("div");
+                div.className = "memory-item";
+                div.innerHTML = `<strong>Q${idx + 1}:</strong> ${item.question}<br><strong>A:</strong> ${item.answer}`;
+                memoryDiv.appendChild(div);
+            });
+        }
+    </script>
+</body>
+</html>

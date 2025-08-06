@@ -1,0 +1,173 @@
+[
+  {
+    "question": "If a pencil costs 30 cents and a notebook costs 1 dollar, how much do 3 pencils and 2 notebooks cost?",
+    "steps": [
+      "Cost of 1 pencil = $0.30",
+      "3 pencils = 3 * 0.30 = $0.90",
+      "Cost of 1 notebook = $1.00",
+      "2 notebooks = 2 * 1.00 = $2.00",
+      "Total cost = 0.90 + 2.00 = $2.90"
+    ],
+    "answer": "$2.90"
+  },
+  {
+    "question": "Sarah has twice as many apples as John. If John has 4 apples, how many apples do they have together?",
+    "steps": [
+      "John has 4 apples.",
+      "Sarah has twice that: 2 * 4 = 8 apples.",
+      "Together: 4 + 8 = 12 apples."
+    ],
+    "answer": "12 apples"
+  },
+  {
+    "question": "A train travels at 60 km/h for 3 hours. How far does it travel?",
+    "steps": [
+      "Speed = 60 km/h",
+      "Time = 3 hours",
+      "Distance = Speed * Time = 60 * 3 = 180 km"
+    ],
+    "answer": "180 km"
+  },
+  {
+    "question": "If 5x = 20, what is the value of x?",
+    "steps": [
+      "Given: 5x = 20",
+      "Divide both sides by 5: x = 20 / 5 = 4"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "Tom buys 4 shirts at $15 each. How much does he spend?",
+    "steps": [
+      "Each shirt costs $15",
+      "Total = 4 * 15 = $60"
+    ],
+    "answer": "$60"
+  },
+  {
+    "question": "There are 24 students in a class. If each bench seats 3 students, how many benches are needed?",
+    "steps": [
+      "Total students = 24",
+      "Each bench = 3 students",
+      "Benches needed = 24 / 3 = 8"
+    ],
+    "answer": "8"
+  },
+  {
+    "question": "One packet of juice contains 250ml. How many liters are in 8 packets?",
+    "steps": [
+      "250ml = 0.25 liters",
+      "8 packets = 8 * 0.25 = 2 liters"
+    ],
+    "answer": "2 liters"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 5 cm and width 3 cm?",
+    "steps": [
+      "Perimeter = 2 * (L + W)",
+      "= 2 * (5 + 3) = 2 * 8 = 16 cm"
+    ],
+    "answer": "16 cm"
+  },
+  {
+    "question": "If a car travels 90 km in 1.5 hours, what is its average speed?",
+    "steps": [
+      "Speed = Distance / Time",
+      "= 90 / 1.5 = 60 km/h"
+    ],
+    "answer": "60 km/h"
+  },
+  {
+    "question": "You have 12 candies. You give 3 to each of your 3 friends. How many candies do you have left?",
+    "steps": [
+      "3 friends × 3 candies = 9 candies given",
+      "12 - 9 = 3 candies left"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "A pizza has 8 slices. If you eat 3 slices, what fraction of the pizza is left?",
+    "steps": [
+      "Total slices = 8",
+      "Slices eaten = 3",
+      "Slices left = 8 - 3 = 5",
+      "Fraction left = 5 / 8"
+    ],
+    "answer": "5/8"
+  },
+  {
+    "question": "The sum of two numbers is 15. If one number is 9, what is the other?",
+    "steps": [
+      "Sum = 15",
+      "First number = 9",
+      "Second number = 15 - 9 = 6"
+    ],
+    "answer": "6"
+  },
+  {
+    "question": "A bag of rice weighs 5 kg. How many kilograms in 4 such bags?",
+    "steps": [
+      "1 bag = 5 kg",
+      "4 bags = 5 * 4 = 20 kg"
+    ],
+    "answer": "20 kg"
+  },
+  {
+    "question": "If 6 pens cost $18, what is the cost of one pen?",
+    "steps": [
+      "Total = $18 for 6 pens",
+      "Cost per pen = 18 / 6 = $3"
+    ],
+    "answer": "$3"
+  },
+  {
+    "question": "A rectangle has area 24 cm² and width 4 cm. What is the length?",
+    "steps": [
+      "Area = Length × Width",
+      "24 = Length × 4",
+      "Length = 24 / 4 = 6 cm"
+    ],
+    "answer": "6 cm"
+  },
+  {
+    "question": "A clock shows 3:15. What angle is between the hour and minute hands?",
+    "steps": [
+      "Minute hand at 90° (15 minutes)",
+      "Hour hand at 97.5° (3 + 0.25 hours * 30°/hour)",
+      "Angle = |97.5 - 90| = 7.5°"
+    ],
+    "answer": "7.5°"
+  },
+  {
+    "question": "What is the average of 5, 10, and 15?",
+    "steps": [
+      "Sum = 5 + 10 + 15 = 30",
+      "Average = 30 / 3 = 10"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "How many seconds are there in 2.5 minutes?",
+    "steps": [
+      "1 minute = 60 seconds",
+      "2.5 minutes = 2.5 * 60 = 150 seconds"
+    ],
+    "answer": "150 seconds"
+  },
+  {
+    "question": "If a person runs 400 meters in 2 minutes, what is their speed in m/s?",
+    "steps": [
+      "400 meters / 120 seconds = 3.33 m/s"
+    ],
+    "answer": "3.33 m/s"
+  },
+  {
+    "question": "You buy 3 items priced $5, $7, and $8. What's the total cost with 10% tax?",
+    "steps": [
+      "Total = 5 + 7 + 8 = $20",
+      "Tax = 10% of $20 = $2",
+      "Total with tax = $22"
+    ],
+    "answer": "$22"
+  }
+]

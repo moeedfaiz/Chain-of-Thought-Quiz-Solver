@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Flask & config files
+instance/
+*.db
+*.sqlite3
+*.log
+*.pid
+
+# Environment variable files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node modules (if using npm for frontend)
+node_modules/
+
+
+.env
